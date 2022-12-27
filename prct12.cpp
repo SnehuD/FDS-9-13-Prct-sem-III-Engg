@@ -66,6 +66,7 @@ void dequeue::addr(int item)
 
 void dequeue::display()
 {
+	cout<<"Elements in Queue : ";
 	for(int i = front;i <= rear;i++)
 	{
 		cout<<a[i]<<" ";
@@ -74,38 +75,38 @@ void dequeue::display()
 
 void dequeue::deletef()
 {
-	if(front==-1)
+	if(front == -1)
 	{
 		cout<<"Deletion is not possible:: Dequeue is empty";
 		return;
 	}
 	else
 	{
-		if(front==rear)
+		if(front == rear)
 		{
-			front=rear=-1;
+			front = rear = -1;
 			return;
 		}
 		cout<<"The deleted element is "<<a[front];
-		front=front+1;
+		front = front + 1;
 	}
 }
 
 void dequeue::deleter()
 {
-	if(front==-1)
+	if(front == -1)
 	{
 		cout<<"Deletion is not possible:Dequeue is empty";
 		return;
 	}
 	else
 	{
-		if(front==rear)
+		if(front == rear)
 		{
-			front=rear=-1;
+			front = rear = -1;
 		}
 		cout<<"The deleted element is "<< a[rear];
-		rear=rear-1;
+		rear = rear - 1;
 	}
 }
 
