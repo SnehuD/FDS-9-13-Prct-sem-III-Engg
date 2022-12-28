@@ -141,3 +141,48 @@ int main()
 	p1.check();	 
 	return 0;	
 }
+
+
+/*
+1. start
+2.declare var such as ch
+3.Print menu - 
+	a. add a pizza
+	b. display orders
+	c. serve a pizza
+	d. exit
+	Enter ur choice
+	
+4.
+case 1 :
+	call add()
+	if(ch =='y' || ch == 'Y')
+	call check function
+
+5.	
+case 2 :
+	call display()
+	if(ch =='y' || ch == 'Y')
+	call check function
+
+6.	
+case 3 :
+	call serve()
+	if(ch =='y' || ch == 'Y')
+	call check function
+	
+7.
+case 4 :
+	call exit()
+	if(ch =='y' || ch == 'Y')
+	call check function
+
+8.	
+default :
+	print invalid choice
+	if(ch =='y' || ch == 'Y')
+	call check function
+	
+9. stop
+	
+*/
