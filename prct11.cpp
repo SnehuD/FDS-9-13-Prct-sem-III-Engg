@@ -126,3 +126,38 @@ int main()
     }while(ch != 4);
 	return 0;
 }
+
+
+/*
+1. start
+2.declare var such as ch, x
+3.Print menu - 
+	a. insert job 
+	b. delete job
+	c. display
+	d. exit
+	Enter ur choice
+	
+4.
+case 1 :
+	then call isFull() function
+
+5.	
+case 2 :
+	then call isEmpty() function
+
+6.	
+case 3 :
+	then call isEmpty() function
+	if (not empty) 
+		then call display() function
+	else
+		queue is empty 
+
+7.	
+case 4 :
+	then print Existing the program
+	
+8. stop
+	
+*/
