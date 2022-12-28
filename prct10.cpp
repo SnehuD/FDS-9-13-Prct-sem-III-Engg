@@ -101,3 +101,44 @@ int main()
     }
     return 0;
 }
+
+
+
+/*
+1. start
+2.declare var such as top, stk, exp, ch, i
+3.Enter ur choice-
+
+4.
+case '(' :
+	call push(ch) function
+
+5.	
+case '[' :
+	call push(ch) function
+
+6.	
+case '{' :
+	call push(ch) function
+
+7.	
+case ')' :
+	call pop() function
+
+8.	
+case ']' :
+	call pop() function
+	
+9.
+case '}' :
+	call pop() function
+	
+10.
+Check expression is empty i.e. isEmpty()
+	then expression is well parenthesis
+else
+	then expression is not well parenthesis
+	
+11. stop
+	
+*/
