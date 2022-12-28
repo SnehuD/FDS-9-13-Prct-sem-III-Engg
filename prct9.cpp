@@ -1,4 +1,3 @@
-
 //	Given String Pallindrome or Not
 
 #include<iostream>
@@ -97,3 +96,14 @@ int main()
 	stack.reverse();
 	stack.palindrome();	
 }
+
+
+/*
+1. start
+2.declare var such as a, top, i,max
+3.Take input as a string from user
+4.call push() function
+5.call push function of palllindrome to check string is pallindrome or not
+6.call stack function
+7.stop 
+*/
