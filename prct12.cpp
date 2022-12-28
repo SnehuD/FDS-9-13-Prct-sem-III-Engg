@@ -158,3 +158,46 @@ int main()
 	}while(c != 6);
 	return 0;
 }
+
+
+/*
+1. start
+2.declare var such as arr data ch
+3.Print menu - 
+	a. insert front
+	b. insert rear
+	c. delete front
+	d. delete rear
+	e. print
+	f. exit
+	Enter ur choice
+	
+4.
+case 1 :
+	enter data for front end of queue and call addf()
+
+5.	
+case 2 :
+	enter data for front end of queue and call addr()
+
+6.	
+case 3 :
+	if isEmpty then dequeue is empty 
+	otherwise
+	call delf()
+
+7.	
+case 4 :
+	if isEmpty then dequeue is empty 
+	otherwise
+	call delr()
+	
+8.
+case 5 :
+	if isEmpty then print dequeue is empty 
+	otherwise
+	call print(q) function
+
+9. stop
+	
+*/
